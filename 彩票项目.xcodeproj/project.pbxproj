@@ -1,0 +1,806 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20020DCB1DE43C4800CD2C12 /* XCSettingItemArrow.m in Sources */ = {isa = PBXBuildFile; fileRef = 20020DCA1DE43C4800CD2C12 /* XCSettingItemArrow.m */; };
+		20020DCE1DE43C5900CD2C12 /* XCSettingItemSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 20020DCD1DE43C5900CD2C12 /* XCSettingItemSwitch.m */; };
+		20020DD11DE43C8800CD2C12 /* XCSettingItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20020DD01DE43C8800CD2C12 /* XCSettingItemCell.m */; };
+		20020DD81DE44CC100CD2C12 /* MBProgressHUD+XMG.m in Sources */ = {isa = PBXBuildFile; fileRef = 20020DD41DE44CC100CD2C12 /* MBProgressHUD+XMG.m */; };
+		20020DD91DE44CC100CD2C12 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 20020DD51DE44CC100CD2C12 /* MBProgressHUD.bundle */; };
+		20020DDA1DE44CC100CD2C12 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 20020DD71DE44CC100CD2C12 /* MBProgressHUD.m */; };
+		20091FB21DDD837700D6E066 /* XCDiscoverViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20091FB11DDD837700D6E066 /* XCDiscoverViewController.storyboard */; };
+		200F21B81DE4242400735EBF /* XCSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 200F21B71DE4242400735EBF /* XCSettingItem.m */; };
+		200F21BB1DE42E7D00735EBF /* XCSettingGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 200F21BA1DE42E7D00735EBF /* XCSettingGroup.m */; };
+		202734EF1DDECC9D00CCD543 /* XCNewFeatureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 202734EE1DDECC9D00CCD543 /* XCNewFeatureCell.m */; };
+		204C67E01DE2F7DD00DFA2BF /* XCSaveDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 204C67DF1DE2F7DD00DFA2BF /* XCSaveDefaults.m */; };
+		204C67E31DE2FCED00DFA2BF /* XCGudieTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 204C67E21DE2FCED00DFA2BF /* XCGudieTool.m */; };
+		207882B51DD02C6700A369AF /* XMGActiveMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 207882B11DD02C6700A369AF /* XMGActiveMenu.m */; };
+		207882B61DD02C6700A369AF /* XMGActiveMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 207882B21DD02C6700A369AF /* XMGActiveMenu.xib */; };
+		207882B71DD02C6700A369AF /* XMGCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 207882B41DD02C6700A369AF /* XMGCover.m */; };
+		20DCAF4F1DDD93270063ACEC /* XCDiscoverBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DCAF4E1DDD93270063ACEC /* XCDiscoverBuyViewController.m */; };
+		20DCAF521DDD9BFE0063ACEC /* XCTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DCAF511DDD9BFE0063ACEC /* XCTitleView.m */; };
+		20DCAF551DDDACA70063ACEC /* XCLuckyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DCAF541DDDACA70063ACEC /* XCLuckyViewController.m */; };
+		20DCAF581DDDAD230063ACEC /* XCLuckyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DCAF571DDDAD220063ACEC /* XCLuckyView.m */; };
+		20DCAF5A1DDDBCEE0063ACEC /* XCLotteryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20DCAF591DDDBCEE0063ACEC /* XCLotteryViewController.xib */; };
+		20EB06C41DC866D600F40FAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EB06C31DC866D600F40FAE /* main.m */; };
+		20EB06C71DC866D600F40FAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EB06C61DC866D600F40FAE /* AppDelegate.m */; };
+		20EB06CF1DC866D600F40FAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20EB06CE1DC866D600F40FAE /* Assets.xcassets */; };
+		20EB06D21DC866D600F40FAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20EB06D01DC866D600F40FAE /* LaunchScreen.storyboard */; };
+		20EB06F11DC8687700F40FAE /* XCArenaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EB06F01DC8687700F40FAE /* XCArenaViewController.m */; };
+		20EB06F41DC8689400F40FAE /* XCDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EB06F31DC8689400F40FAE /* XCDiscoverViewController.m */; };
+		20EB06F71DC868B100F40FAE /* XCHallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EB06F61DC868B100F40FAE /* XCHallViewController.m */; };
+		20EB06FA1DC868DC00F40FAE /* XCLotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EB06F91DC868DC00F40FAE /* XCLotteryViewController.m */; };
+		20EB07001DC8691F00F40FAE /* XCHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EB06FF1DC8691F00F40FAE /* XCHistoryViewController.m */; };
+		20EB07061DC86CF000F40FAE /* XCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EB07051DC86CF000F40FAE /* XCTabBarController.m */; };
+		20EB07091DC86D0600F40FAE /* XCTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EB07081DC86D0600F40FAE /* XCTabbar.m */; };
+		20EB070C1DC884C500F40FAE /* XCTabbarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EB070B1DC884C500F40FAE /* XCTabbarButton.m */; };
+		20EB070F1DC8936D00F40FAE /* XCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EB070E1DC8936D00F40FAE /* XCNavigationController.m */; };
+		20F6AC2D1DD2E7E300F90158 /* XCDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F6AC2C1DD2E7E300F90158 /* XCDownView.m */; };
+		20F6AC301DD2E81500F90158 /* XCItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F6AC2F1DD2E81500F90158 /* XCItems.m */; };
+		20FC53E61DDEACC700E1D542 /* XCNewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FC53E51DDEACC700E1D542 /* XCNewFeatureViewController.m */; };
+		6934F7D51DC8E60B0067BBAA /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 6934F7D41DC8E60B0067BBAA /* UIImage+image.m */; };
+		6934F7DA1DC8E9DD0067BBAA /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6934F7D91DC8E9DD0067BBAA /* UIView+frame.m */; };
+		699B7B661DDB58EC00724A0B /* XCArenaNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 699B7B651DDB58EC00724A0B /* XCArenaNavigation.m */; };
+		69E6EAA21DE33D5F00C2843F /* XCSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E6EAA11DE33D5F00C2843F /* XCSettingController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20020DC91DE43C4800CD2C12 /* XCSettingItemArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSettingItemArrow.h; sourceTree = "<group>"; };
+		20020DCA1DE43C4800CD2C12 /* XCSettingItemArrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCSettingItemArrow.m; sourceTree = "<group>"; };
+		20020DCC1DE43C5900CD2C12 /* XCSettingItemSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSettingItemSwitch.h; sourceTree = "<group>"; };
+		20020DCD1DE43C5900CD2C12 /* XCSettingItemSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCSettingItemSwitch.m; sourceTree = "<group>"; };
+		20020DCF1DE43C8800CD2C12 /* XCSettingItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSettingItemCell.h; sourceTree = "<group>"; };
+		20020DD01DE43C8800CD2C12 /* XCSettingItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCSettingItemCell.m; sourceTree = "<group>"; };
+		20020DD31DE44CC100CD2C12 /* MBProgressHUD+XMG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XMG.h"; sourceTree = "<group>"; };
+		20020DD41DE44CC100CD2C12 /* MBProgressHUD+XMG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XMG.m"; sourceTree = "<group>"; };
+		20020DD51DE44CC100CD2C12 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		20020DD61DE44CC100CD2C12 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		20020DD71DE44CC100CD2C12 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		20091FB11DDD837700D6E066 /* XCDiscoverViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = XCDiscoverViewController.storyboard; sourceTree = "<group>"; };
+		200F21B61DE4242400735EBF /* XCSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSettingItem.h; sourceTree = "<group>"; };
+		200F21B71DE4242400735EBF /* XCSettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCSettingItem.m; sourceTree = "<group>"; };
+		200F21B91DE42E7D00735EBF /* XCSettingGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSettingGroup.h; sourceTree = "<group>"; };
+		200F21BA1DE42E7D00735EBF /* XCSettingGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCSettingGroup.m; sourceTree = "<group>"; };
+		202734ED1DDECC9D00CCD543 /* XCNewFeatureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCNewFeatureCell.h; sourceTree = "<group>"; };
+		202734EE1DDECC9D00CCD543 /* XCNewFeatureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCNewFeatureCell.m; sourceTree = "<group>"; };
+		204C67DE1DE2F7DD00DFA2BF /* XCSaveDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSaveDefaults.h; sourceTree = "<group>"; };
+		204C67DF1DE2F7DD00DFA2BF /* XCSaveDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCSaveDefaults.m; sourceTree = "<group>"; };
+		204C67E11DE2FCED00DFA2BF /* XCGudieTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCGudieTool.h; sourceTree = "<group>"; };
+		204C67E21DE2FCED00DFA2BF /* XCGudieTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCGudieTool.m; sourceTree = "<group>"; };
+		207882B01DD02C6700A369AF /* XMGActiveMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGActiveMenu.h; sourceTree = "<group>"; };
+		207882B11DD02C6700A369AF /* XMGActiveMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGActiveMenu.m; sourceTree = "<group>"; };
+		207882B21DD02C6700A369AF /* XMGActiveMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGActiveMenu.xib; sourceTree = "<group>"; };
+		207882B31DD02C6700A369AF /* XMGCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGCover.h; sourceTree = "<group>"; };
+		207882B41DD02C6700A369AF /* XMGCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGCover.m; sourceTree = "<group>"; };
+		20DCAF4D1DDD93270063ACEC /* XCDiscoverBuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDiscoverBuyViewController.h; sourceTree = "<group>"; };
+		20DCAF4E1DDD93270063ACEC /* XCDiscoverBuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDiscoverBuyViewController.m; sourceTree = "<group>"; };
+		20DCAF501DDD9BFE0063ACEC /* XCTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XCTitleView.h; path = "彩票项目/Classes/Discover(发现)/Controller/XCTitleView.h"; sourceTree = SOURCE_ROOT; };
+		20DCAF511DDD9BFE0063ACEC /* XCTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XCTitleView.m; path = "彩票项目/Classes/Discover(发现)/Controller/XCTitleView.m"; sourceTree = SOURCE_ROOT; };
+		20DCAF531DDDACA70063ACEC /* XCLuckyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCLuckyViewController.h; sourceTree = "<group>"; };
+		20DCAF541DDDACA70063ACEC /* XCLuckyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCLuckyViewController.m; sourceTree = "<group>"; };
+		20DCAF561DDDAD220063ACEC /* XCLuckyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XCLuckyView.h; path = "彩票项目/Classes/Discover(发现)/Controller/XCLuckyView.h"; sourceTree = SOURCE_ROOT; };
+		20DCAF571DDDAD220063ACEC /* XCLuckyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XCLuckyView.m; path = "彩票项目/Classes/Discover(发现)/Controller/XCLuckyView.m"; sourceTree = SOURCE_ROOT; };
+		20DCAF591DDDBCEE0063ACEC /* XCLotteryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XCLotteryViewController.xib; sourceTree = "<group>"; };
+		20EB06BF1DC866D600F40FAE /* 彩票项目.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "彩票项目.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20EB06C31DC866D600F40FAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20EB06C51DC866D600F40FAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20EB06C61DC866D600F40FAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20EB06CE1DC866D600F40FAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20EB06D11DC866D600F40FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20EB06D31DC866D600F40FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20EB06EF1DC8687700F40FAE /* XCArenaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCArenaViewController.h; sourceTree = "<group>"; };
+		20EB06F01DC8687700F40FAE /* XCArenaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCArenaViewController.m; sourceTree = "<group>"; };
+		20EB06F21DC8689400F40FAE /* XCDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDiscoverViewController.h; sourceTree = "<group>"; };
+		20EB06F31DC8689400F40FAE /* XCDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDiscoverViewController.m; sourceTree = "<group>"; };
+		20EB06F51DC868B100F40FAE /* XCHallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCHallViewController.h; sourceTree = "<group>"; };
+		20EB06F61DC868B100F40FAE /* XCHallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCHallViewController.m; sourceTree = "<group>"; };
+		20EB06F81DC868DC00F40FAE /* XCLotteryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCLotteryViewController.h; sourceTree = "<group>"; };
+		20EB06F91DC868DC00F40FAE /* XCLotteryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCLotteryViewController.m; sourceTree = "<group>"; };
+		20EB06FE1DC8691F00F40FAE /* XCHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCHistoryViewController.h; sourceTree = "<group>"; };
+		20EB06FF1DC8691F00F40FAE /* XCHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCHistoryViewController.m; sourceTree = "<group>"; };
+		20EB07041DC86CF000F40FAE /* XCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTabBarController.h; sourceTree = "<group>"; };
+		20EB07051DC86CF000F40FAE /* XCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCTabBarController.m; sourceTree = "<group>"; };
+		20EB07071DC86D0600F40FAE /* XCTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTabbar.h; sourceTree = "<group>"; };
+		20EB07081DC86D0600F40FAE /* XCTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCTabbar.m; sourceTree = "<group>"; };
+		20EB070A1DC884C500F40FAE /* XCTabbarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTabbarButton.h; sourceTree = "<group>"; };
+		20EB070B1DC884C500F40FAE /* XCTabbarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCTabbarButton.m; sourceTree = "<group>"; };
+		20EB070D1DC8936D00F40FAE /* XCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCNavigationController.h; sourceTree = "<group>"; };
+		20EB070E1DC8936D00F40FAE /* XCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCNavigationController.m; sourceTree = "<group>"; };
+		20F6AC2B1DD2E7E300F90158 /* XCDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDownView.h; sourceTree = "<group>"; };
+		20F6AC2C1DD2E7E300F90158 /* XCDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDownView.m; sourceTree = "<group>"; };
+		20F6AC2E1DD2E81500F90158 /* XCItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XCItems.h; path = "彩票项目/Classes/Hall(购彩大厅)/View/XCItems.h"; sourceTree = SOURCE_ROOT; };
+		20F6AC2F1DD2E81500F90158 /* XCItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XCItems.m; path = "彩票项目/Classes/Hall(购彩大厅)/View/XCItems.m"; sourceTree = SOURCE_ROOT; };
+		20FC53E41DDEACC700E1D542 /* XCNewFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCNewFeatureViewController.h; sourceTree = "<group>"; };
+		20FC53E51DDEACC700E1D542 /* XCNewFeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCNewFeatureViewController.m; sourceTree = "<group>"; };
+		6934F7D31DC8E60B0067BBAA /* UIImage+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+image.h"; sourceTree = "<group>"; };
+		6934F7D41DC8E60B0067BBAA /* UIImage+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+image.m"; sourceTree = "<group>"; };
+		6934F7D71DC8E7880067BBAA /* 彩票项目.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "彩票项目.pch"; sourceTree = "<group>"; };
+		6934F7D81DC8E9DD0067BBAA /* UIView+frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
+		6934F7D91DC8E9DD0067BBAA /* UIView+frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
+		699B7B641DDB58EC00724A0B /* XCArenaNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCArenaNavigation.h; sourceTree = "<group>"; };
+		699B7B651DDB58EC00724A0B /* XCArenaNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCArenaNavigation.m; sourceTree = "<group>"; };
+		69E6EAA01DE33D5F00C2843F /* XCSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSettingController.h; sourceTree = "<group>"; };
+		69E6EAA11DE33D5F00C2843F /* XCSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCSettingController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20EB06BC1DC866D600F40FAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20020DD21DE44CC100CD2C12 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				20020DD31DE44CC100CD2C12 /* MBProgressHUD+XMG.h */,
+				20020DD41DE44CC100CD2C12 /* MBProgressHUD+XMG.m */,
+				20020DD51DE44CC100CD2C12 /* MBProgressHUD.bundle */,
+				20020DD61DE44CC100CD2C12 /* MBProgressHUD.h */,
+				20020DD71DE44CC100CD2C12 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		200F21B41DE4241700735EBF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				200F21B61DE4242400735EBF /* XCSettingItem.h */,
+				200F21B71DE4242400735EBF /* XCSettingItem.m */,
+				200F21B91DE42E7D00735EBF /* XCSettingGroup.h */,
+				200F21BA1DE42E7D00735EBF /* XCSettingGroup.m */,
+				20020DC91DE43C4800CD2C12 /* XCSettingItemArrow.h */,
+				20020DCA1DE43C4800CD2C12 /* XCSettingItemArrow.m */,
+				20020DCC1DE43C5900CD2C12 /* XCSettingItemSwitch.h */,
+				20020DCD1DE43C5900CD2C12 /* XCSettingItemSwitch.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		200F21B51DE4241700735EBF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20020DCF1DE43C8800CD2C12 /* XCSettingItemCell.h */,
+				20020DD01DE43C8800CD2C12 /* XCSettingItemCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		206342461DE2DEF700F359DB /* Tools(工具) */ = {
+			isa = PBXGroup;
+			children = (
+				206342471DE2DEF700F359DB /* RootViewController */,
+				206342481DE2DEF700F359DB /* Save */,
+			);
+			path = "Tools(工具)";
+			sourceTree = "<group>";
+		};
+		206342471DE2DEF700F359DB /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				204C67E11DE2FCED00DFA2BF /* XCGudieTool.h */,
+				204C67E21DE2FCED00DFA2BF /* XCGudieTool.m */,
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		206342481DE2DEF700F359DB /* Save */ = {
+			isa = PBXGroup;
+			children = (
+				204C67DE1DE2F7DD00DFA2BF /* XCSaveDefaults.h */,
+				204C67DF1DE2F7DD00DFA2BF /* XCSaveDefaults.m */,
+			);
+			path = Save;
+			sourceTree = "<group>";
+		};
+		20EB06B61DC866D600F40FAE = {
+			isa = PBXGroup;
+			children = (
+				20EB06C11DC866D600F40FAE /* 彩票项目 */,
+				20EB06C01DC866D600F40FAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20EB06C01DC866D600F40FAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20EB06BF1DC866D600F40FAE /* 彩票项目.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20EB06C11DC866D600F40FAE /* 彩票项目 */ = {
+			isa = PBXGroup;
+			children = (
+				20EB06D91DC8683000F40FAE /* Classes */,
+				20EB06C51DC866D600F40FAE /* AppDelegate.h */,
+				20EB06C61DC866D600F40FAE /* AppDelegate.m */,
+				6934F7D31DC8E60B0067BBAA /* UIImage+image.h */,
+				6934F7D41DC8E60B0067BBAA /* UIImage+image.m */,
+				6934F7D81DC8E9DD0067BBAA /* UIView+frame.h */,
+				6934F7D91DC8E9DD0067BBAA /* UIView+frame.m */,
+				20020DD21DE44CC100CD2C12 /* MBProgressHUD */,
+				6934F7D71DC8E7880067BBAA /* 彩票项目.pch */,
+				20EB06CE1DC866D600F40FAE /* Assets.xcassets */,
+				20EB06D01DC866D600F40FAE /* LaunchScreen.storyboard */,
+				20EB06D31DC866D600F40FAE /* Info.plist */,
+				20EB06C21DC866D600F40FAE /* Supporting Files */,
+			);
+			path = "彩票项目";
+			sourceTree = "<group>";
+		};
+		20EB06C21DC866D600F40FAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20EB06C31DC866D600F40FAE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20EB06D91DC8683000F40FAE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				69E6EA9C1DE33D4000C2843F /* SettingO(设置) */,
+				206342461DE2DEF700F359DB /* Tools(工具) */,
+				20FC53E01DDEAC9900E1D542 /* NewFeature(新特性) */,
+				20EB06DA1DC8683000F40FAE /* Arena(竞技场) */,
+				20EB06DE1DC8683000F40FAE /* Discover(发现) */,
+				20EB06E21DC8683000F40FAE /* Hall(购彩大厅) */,
+				20EB06E61DC8683000F40FAE /* History(开奖信息) */,
+				20EB06EA1DC8683000F40FAE /* Main */,
+				20EB06EB1DC8683000F40FAE /* MyLottery(我的彩票) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		20EB06DA1DC8683000F40FAE /* Arena(竞技场) */ = {
+			isa = PBXGroup;
+			children = (
+				20EB06DB1DC8683000F40FAE /* Controller */,
+				20EB06DC1DC8683000F40FAE /* Model */,
+				20EB06DD1DC8683000F40FAE /* View */,
+			);
+			path = "Arena(竞技场)";
+			sourceTree = "<group>";
+		};
+		20EB06DB1DC8683000F40FAE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				20EB06EF1DC8687700F40FAE /* XCArenaViewController.h */,
+				20EB06F01DC8687700F40FAE /* XCArenaViewController.m */,
+				699B7B641DDB58EC00724A0B /* XCArenaNavigation.h */,
+				699B7B651DDB58EC00724A0B /* XCArenaNavigation.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		20EB06DC1DC8683000F40FAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		20EB06DD1DC8683000F40FAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20EB06DE1DC8683000F40FAE /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				20EB06DF1DC8683000F40FAE /* Controller */,
+				20EB06E01DC8683000F40FAE /* Model */,
+				20EB06E11DC8683000F40FAE /* View */,
+			);
+			path = "Discover(发现)";
+			sourceTree = "<group>";
+		};
+		20EB06DF1DC8683000F40FAE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				20EB06F21DC8689400F40FAE /* XCDiscoverViewController.h */,
+				20EB06F31DC8689400F40FAE /* XCDiscoverViewController.m */,
+				20091FB11DDD837700D6E066 /* XCDiscoverViewController.storyboard */,
+				20DCAF4D1DDD93270063ACEC /* XCDiscoverBuyViewController.h */,
+				20DCAF4E1DDD93270063ACEC /* XCDiscoverBuyViewController.m */,
+				20DCAF531DDDACA70063ACEC /* XCLuckyViewController.h */,
+				20DCAF541DDDACA70063ACEC /* XCLuckyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		20EB06E01DC8683000F40FAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		20EB06E11DC8683000F40FAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20DCAF501DDD9BFE0063ACEC /* XCTitleView.h */,
+				20DCAF511DDD9BFE0063ACEC /* XCTitleView.m */,
+				20DCAF561DDDAD220063ACEC /* XCLuckyView.h */,
+				20DCAF571DDDAD220063ACEC /* XCLuckyView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20EB06E21DC8683000F40FAE /* Hall(购彩大厅) */ = {
+			isa = PBXGroup;
+			children = (
+				20EB06E31DC8683000F40FAE /* Controller */,
+				20EB06E41DC8683000F40FAE /* Model */,
+				20EB06E51DC8683000F40FAE /* View */,
+			);
+			path = "Hall(购彩大厅)";
+			sourceTree = "<group>";
+		};
+		20EB06E31DC8683000F40FAE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				20EB06F51DC868B100F40FAE /* XCHallViewController.h */,
+				20EB06F61DC868B100F40FAE /* XCHallViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		20EB06E41DC8683000F40FAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20F6AC2E1DD2E81500F90158 /* XCItems.h */,
+				20F6AC2F1DD2E81500F90158 /* XCItems.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		20EB06E51DC8683000F40FAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				207882B01DD02C6700A369AF /* XMGActiveMenu.h */,
+				207882B11DD02C6700A369AF /* XMGActiveMenu.m */,
+				207882B21DD02C6700A369AF /* XMGActiveMenu.xib */,
+				207882B31DD02C6700A369AF /* XMGCover.h */,
+				207882B41DD02C6700A369AF /* XMGCover.m */,
+				20F6AC2B1DD2E7E300F90158 /* XCDownView.h */,
+				20F6AC2C1DD2E7E300F90158 /* XCDownView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20EB06E61DC8683000F40FAE /* History(开奖信息) */ = {
+			isa = PBXGroup;
+			children = (
+				20EB06E71DC8683000F40FAE /* Controller */,
+				20EB06E81DC8683000F40FAE /* Model */,
+				20EB06E91DC8683000F40FAE /* View */,
+			);
+			path = "History(开奖信息)";
+			sourceTree = "<group>";
+		};
+		20EB06E71DC8683000F40FAE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				20EB06FE1DC8691F00F40FAE /* XCHistoryViewController.h */,
+				20EB06FF1DC8691F00F40FAE /* XCHistoryViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		20EB06E81DC8683000F40FAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		20EB06E91DC8683000F40FAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20EB06EA1DC8683000F40FAE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				20EB07011DC86CD500F40FAE /* Controller */,
+				20EB07021DC86CD500F40FAE /* Model */,
+				20EB07031DC86CD500F40FAE /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		20EB06EB1DC8683000F40FAE /* MyLottery(我的彩票) */ = {
+			isa = PBXGroup;
+			children = (
+				20EB06EC1DC8683000F40FAE /* Controller */,
+				20EB06ED1DC8683000F40FAE /* Model */,
+				20EB06EE1DC8683000F40FAE /* View */,
+			);
+			path = "MyLottery(我的彩票)";
+			sourceTree = "<group>";
+		};
+		20EB06EC1DC8683000F40FAE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				20EB06F81DC868DC00F40FAE /* XCLotteryViewController.h */,
+				20EB06F91DC868DC00F40FAE /* XCLotteryViewController.m */,
+				20DCAF591DDDBCEE0063ACEC /* XCLotteryViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		20EB06ED1DC8683000F40FAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		20EB06EE1DC8683000F40FAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20EB07011DC86CD500F40FAE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				20EB07041DC86CF000F40FAE /* XCTabBarController.h */,
+				20EB07051DC86CF000F40FAE /* XCTabBarController.m */,
+				20EB070D1DC8936D00F40FAE /* XCNavigationController.h */,
+				20EB070E1DC8936D00F40FAE /* XCNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		20EB07021DC86CD500F40FAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		20EB07031DC86CD500F40FAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20EB07071DC86D0600F40FAE /* XCTabbar.h */,
+				20EB07081DC86D0600F40FAE /* XCTabbar.m */,
+				20EB070A1DC884C500F40FAE /* XCTabbarButton.h */,
+				20EB070B1DC884C500F40FAE /* XCTabbarButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20FC53E01DDEAC9900E1D542 /* NewFeature(新特性) */ = {
+			isa = PBXGroup;
+			children = (
+				20FC53E11DDEAC9900E1D542 /* Controller */,
+				20FC53E21DDEAC9900E1D542 /* Model */,
+				20FC53E31DDEAC9900E1D542 /* View */,
+			);
+			path = "NewFeature(新特性)";
+			sourceTree = "<group>";
+		};
+		20FC53E11DDEAC9900E1D542 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				20FC53E41DDEACC700E1D542 /* XCNewFeatureViewController.h */,
+				20FC53E51DDEACC700E1D542 /* XCNewFeatureViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		20FC53E21DDEAC9900E1D542 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		20FC53E31DDEAC9900E1D542 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				202734ED1DDECC9D00CCD543 /* XCNewFeatureCell.h */,
+				202734EE1DDECC9D00CCD543 /* XCNewFeatureCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		69E6EA9C1DE33D4000C2843F /* SettingO(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				69E6EA9D1DE33D4000C2843F /* Controller */,
+				200F21B41DE4241700735EBF /* Model */,
+				200F21B51DE4241700735EBF /* View */,
+			);
+			path = "SettingO(设置)";
+			sourceTree = "<group>";
+		};
+		69E6EA9D1DE33D4000C2843F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				69E6EAA01DE33D5F00C2843F /* XCSettingController.h */,
+				69E6EAA11DE33D5F00C2843F /* XCSettingController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20EB06BE1DC866D600F40FAE /* 彩票项目 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20EB06D61DC866D600F40FAE /* Build configuration list for PBXNativeTarget "彩票项目" */;
+			buildPhases = (
+				20EB06BB1DC866D600F40FAE /* Sources */,
+				20EB06BC1DC866D600F40FAE /* Frameworks */,
+				20EB06BD1DC866D600F40FAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "彩票项目";
+			productName = "彩票项目";
+			productReference = 20EB06BF1DC866D600F40FAE /* 彩票项目.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20EB06B71DC866D600F40FAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XC;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Liuxingchen;
+				TargetAttributes = {
+					20EB06BE1DC866D600F40FAE = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = B72USU3T8Q;
+					};
+				};
+			};
+			buildConfigurationList = 20EB06BA1DC866D600F40FAE /* Build configuration list for PBXProject "彩票项目" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20EB06B61DC866D600F40FAE;
+			productRefGroup = 20EB06C01DC866D600F40FAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20EB06BE1DC866D600F40FAE /* 彩票项目 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20EB06BD1DC866D600F40FAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20EB06D21DC866D600F40FAE /* LaunchScreen.storyboard in Resources */,
+				20EB06CF1DC866D600F40FAE /* Assets.xcassets in Resources */,
+				207882B61DD02C6700A369AF /* XMGActiveMenu.xib in Resources */,
+				20DCAF5A1DDDBCEE0063ACEC /* XCLotteryViewController.xib in Resources */,
+				20091FB21DDD837700D6E066 /* XCDiscoverViewController.storyboard in Resources */,
+				20020DD91DE44CC100CD2C12 /* MBProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20EB06BB1DC866D600F40FAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20EB070C1DC884C500F40FAE /* XCTabbarButton.m in Sources */,
+				20DCAF4F1DDD93270063ACEC /* XCDiscoverBuyViewController.m in Sources */,
+				20EB07001DC8691F00F40FAE /* XCHistoryViewController.m in Sources */,
+				20EB06C71DC866D600F40FAE /* AppDelegate.m in Sources */,
+				20EB07061DC86CF000F40FAE /* XCTabBarController.m in Sources */,
+				20EB06C41DC866D600F40FAE /* main.m in Sources */,
+				20020DCB1DE43C4800CD2C12 /* XCSettingItemArrow.m in Sources */,
+				20020DDA1DE44CC100CD2C12 /* MBProgressHUD.m in Sources */,
+				200F21B81DE4242400735EBF /* XCSettingItem.m in Sources */,
+				20DCAF581DDDAD230063ACEC /* XCLuckyView.m in Sources */,
+				20F6AC2D1DD2E7E300F90158 /* XCDownView.m in Sources */,
+				20FC53E61DDEACC700E1D542 /* XCNewFeatureViewController.m in Sources */,
+				6934F7D51DC8E60B0067BBAA /* UIImage+image.m in Sources */,
+				20EB06F71DC868B100F40FAE /* XCHallViewController.m in Sources */,
+				20EB06F41DC8689400F40FAE /* XCDiscoverViewController.m in Sources */,
+				20EB07091DC86D0600F40FAE /* XCTabbar.m in Sources */,
+				204C67E01DE2F7DD00DFA2BF /* XCSaveDefaults.m in Sources */,
+				20020DD81DE44CC100CD2C12 /* MBProgressHUD+XMG.m in Sources */,
+				699B7B661DDB58EC00724A0B /* XCArenaNavigation.m in Sources */,
+				202734EF1DDECC9D00CCD543 /* XCNewFeatureCell.m in Sources */,
+				200F21BB1DE42E7D00735EBF /* XCSettingGroup.m in Sources */,
+				20EB06F11DC8687700F40FAE /* XCArenaViewController.m in Sources */,
+				20F6AC301DD2E81500F90158 /* XCItems.m in Sources */,
+				6934F7DA1DC8E9DD0067BBAA /* UIView+frame.m in Sources */,
+				20020DD11DE43C8800CD2C12 /* XCSettingItemCell.m in Sources */,
+				20020DCE1DE43C5900CD2C12 /* XCSettingItemSwitch.m in Sources */,
+				204C67E31DE2FCED00DFA2BF /* XCGudieTool.m in Sources */,
+				20DCAF551DDDACA70063ACEC /* XCLuckyViewController.m in Sources */,
+				207882B71DD02C6700A369AF /* XMGCover.m in Sources */,
+				69E6EAA21DE33D5F00C2843F /* XCSettingController.m in Sources */,
+				20DCAF521DDD9BFE0063ACEC /* XCTitleView.m in Sources */,
+				20EB070F1DC8936D00F40FAE /* XCNavigationController.m in Sources */,
+				20EB06FA1DC868DC00F40FAE /* XCLotteryViewController.m in Sources */,
+				207882B51DD02C6700A369AF /* XMGActiveMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20EB06D01DC866D600F40FAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20EB06D11DC866D600F40FAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20EB06D41DC866D600F40FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20EB06D51DC866D600F40FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20EB06D71DC866D600F40FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B72USU3T8Q;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "彩票项目/彩票项目.pch";
+				INFOPLIST_FILE = "彩票项目/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.intelet.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20EB06D81DC866D600F40FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B72USU3T8Q;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "彩票项目/彩票项目.pch";
+				INFOPLIST_FILE = "彩票项目/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.intelet.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20EB06BA1DC866D600F40FAE /* Build configuration list for PBXProject "彩票项目" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EB06D41DC866D600F40FAE /* Debug */,
+				20EB06D51DC866D600F40FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20EB06D61DC866D600F40FAE /* Build configuration list for PBXNativeTarget "彩票项目" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EB06D71DC866D600F40FAE /* Debug */,
+				20EB06D81DC866D600F40FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20EB06B71DC866D600F40FAE /* Project object */;
+}
