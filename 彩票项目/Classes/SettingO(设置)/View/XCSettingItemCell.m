@@ -34,12 +34,12 @@
     }
     return _switchView;
 }
-+(instancetype)cellWithTableView:(UITableView *)tableView
++(instancetype)cellWithTableView:(UITableView *)tableView style:(UITableViewCellStyle)style
 {
     static NSString *cellID = @"cell";
     XCSettingItemCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
     if (cell ==nil) {
-        cell = [[XCSettingItemCell alloc]initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:cellID];
+        cell = [[XCSettingItemCell alloc]initWithStyle:style reuseIdentifier:cellID];
     }
     return cell;
 }
@@ -62,12 +62,16 @@
     if ([_item isKindOfClass:[XCSettingItemArrow class]]) {
         //箭头
         self.accessoryView = self.arrowView;
+        //设置cell的选中样式
+        self.selectionStyle = UITableViewCellSelectionStyleDefault;
     }else if ([_item isKindOfClass:[XCSettingItemSwitch class]]){
         //开关
         self.accessoryView = self.switchView;
+        self.selectionStyle = UITableViewCellSelectionStyleNone;
     }else{
         //还原
         self.accessoryView = nil;
+        self.selectionStyle = UITableViewCellSelectionStyleDefault;
     }
 }
 @end

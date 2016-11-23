@@ -9,5 +9,5 @@
 #import "XCSettingItem.h"
 
 @interface XCSettingItemArrow : XCSettingItem
-
+@property(nonatomic,assign)Class destVc;
 @end

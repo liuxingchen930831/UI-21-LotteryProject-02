@@ -37,7 +37,7 @@
 }
 -(void)setting
 {
-    XCSettingController *vc = [[XCSettingController alloc]initWithStyle:UITableViewStyleGrouped];
+    XCSettingController *vc = [[XCSettingController alloc]init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 @end

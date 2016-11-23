@@ -18,7 +18,7 @@
 @property(nonatomic,strong)NSString * titile ;
 
 
-@property(nonatomic,copy)void(^itemOpertion)() ;
+@property(nonatomic,copy)void(^itemOpertion)(NSIndexPath *indexPath) ;
 
 
 +(instancetype)settingItemWithImage:(UIImage *)image title:(NSString *)title subtitle:(NSString *)detail;

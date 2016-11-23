@@ -9,6 +9,7 @@
 #import "UIImage+image.h"
 #import "UIView+frame.h"
 #import "MBProgressHUD.h"
+#import "NSObject+Model.h"
 #define XCKeyWindow [UIApplication sharedApplication].keyWindow
 #define XCScreenBouns [UIScreen mainScreen].bounds
 #define XCColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]

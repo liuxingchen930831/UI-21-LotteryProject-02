@@ -65,3 +65,14 @@ XCNavigationController *nav = [[XCNavigationController alloc]initWithRootViewCon
  - 4.在数据模型中运用block
   - 给模型加一个block 然后，arrow和switch都继承了数据模型类，所以属性也继承过来了。直接用就可以，然后在didselectTableView方法里面 获取选中的那行调block就可以了
   
+  
+- -(void)loadView方法的作用是用来创建UIViewController的View。先调用loadView 然后调用viewdidload
+
+- help页面的textlabel是加载的bundle的一个json文件，加载的数据放到了字典里，然后通过字典转模型去取出模型，这里有个注意点用kvc的话，有id关键字但是，oc中不允许使用id int等这种特殊的字符串，所以如果用kvc的话，需要重写kvc方法， - (void)setValue:(nullable id)value forKey:(NSString *)key;判断一下key的值 是否包含id，如果包含就[self setValue:value forKey:@"ID"];如果不包含就 调[super setValue:value forKey:key];方法
+
+- oc和js做交互:
+	- 需要用webView并且只能在加载网页的时候去做。
+	- -(void)webViewDidFinishLoad:(UIWebView *)webView
+	
+- XCBasicViewController 类
+	- 有个XCBasicViewController这个类有 tableview的样式，如果和XCBasicViewController页面差不多可以直接继承用，这也是为什么一些tableview没有设置数据源和一些其他方法，父类已经做而已。

@@ -11,30 +11,33 @@
 #import "XCSettingGroup.h"
 #import "XCSettingItemArrow.h"
 #import "XCSettingItemSwitch.h"
-
+#import "XCPushViewController.h"
 #import "MBProgressHUD+XMG.h"
+#import "XCHelpViewController.h"
 @interface XCSettingController ()
 
-/** 存放数据模型 */
-@property(nonatomic,strong)NSMutableArray * groups ;
 
 @end
 
 @implementation XCSettingController
--(NSMutableArray *)groups
-{
-    if (_groups ==nil) {
-        _groups =[NSMutableArray array];
-    }
-    return _groups;
-}
 
+-(instancetype)init
+{
+    return [super initWithStyle:UITableViewStyleGrouped];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"设置";
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"常见问题" style:UIBarButtonItemStylePlain target:self action:@selector(help)];
     //设置模型的数据源
     [self setupGroup0];
     [self setupGroup1];
     [self setupGroup2];
+}
+-(void)help
+{
+    XCHelpViewController *vc = [[XCHelpViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 -(void)setupGroup0
 {
@@ -50,7 +53,9 @@
 }
 -(void)setupGroup1
 {
-    XCSettingItemArrow *item = [XCSettingItemArrow settingItemWithImage:[UIImage imageNamed:@"RedeemCode"] title:@"红包1" subtitle:nil];
+    XCSettingItemArrow *item = [XCSettingItemArrow settingItemWithImage:[UIImage imageNamed:@"RedeemCode"] title:@"点击跳转" subtitle:nil];
+    item.destVc= [XCPushViewController class];
+    
     XCSettingItemArrow *item1 = [XCSettingItemArrow settingItemWithImage:[UIImage imageNamed:@"RedeemCode"] title:@"红包2" subtitle:nil];
     XCSettingItemArrow *item2 = [XCSettingItemArrow settingItemWithImage:[UIImage imageNamed:@"RedeemCode"] title:@"111" subtitle:nil];
     XCSettingItemArrow *item3 = [XCSettingItemArrow settingItemWithImage:[UIImage imageNamed:@"RedeemCode"] title:@"红包4" subtitle:nil];
@@ -66,7 +71,7 @@
     XCSettingItemArrow *item1 = [XCSettingItemArrow settingItemWithImage:[UIImage imageNamed:@"RedeemCode"] title:@"红包6" subtitle:nil];
     XCSettingItemSwitch *item2 = [XCSettingItemSwitch settingItemWithImage:[UIImage imageNamed:@"RedeemCode"] title:@"红包7" subtitle:nil];
     XCSettingItemArrow *item3 = [XCSettingItemArrow settingItemWithImage:[UIImage imageNamed:@"RedeemCode"] title:@"检查新版本" subtitle:nil];
-    item3.itemOpertion = ^{
+    item3.itemOpertion = ^(NSIndexPath * indexPath){
         [MBProgressHUD showMessage:@"最新版本"];
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             
@@ -80,47 +85,5 @@
     [self.groups addObject:group];
     
 }
--(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
-    return self.groups.count;
-}
--(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
-    //取出组
-    XCSettingGroup *group = self.groups[section];
-    return group.item.count;
-}
--(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    
-    XCSettingItemCell *cell = [XCSettingItemCell cellWithTableView:tableView];
-    //取出某一组
-    XCSettingGroup *group = self.groups[indexPath.section];
-    //取出某一行
-    XCSettingItem *item = group.item[indexPath.row];
-    cell.item = item;
-    return cell;
-}
--(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
-{
-    XCSettingGroup *group = self.groups[section];
-    return group.header;
-}
--(NSString *)tableView:(UITableView *)tableView titleForFooterInSection:(NSInteger)section
-{
-    XCSettingGroup *group = self.groups[section];
-    return group.foot;
-}
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
-    XCSettingGroup *group = self.groups[indexPath.section];
-    //从模型中取出选中的行
-    XCSettingItem *item = group.item[indexPath.row];
-    
-    if (item.itemOpertion) {
-        item.itemOpertion();
-    }
-}
+
 @end

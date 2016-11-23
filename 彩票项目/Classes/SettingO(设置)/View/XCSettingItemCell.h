@@ -11,5 +11,5 @@
 @class XCSettingItem;
 @interface XCSettingItemCell : UITableViewCell
 @property(nonatomic,strong)XCSettingItem * item ;
-+(instancetype)cellWithTableView:(UITableView *)tableView;
++(instancetype)cellWithTableView:(UITableView *)tableView style:(UITableViewCellStyle)style;
 @end
